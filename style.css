@@ -1,0 +1,49 @@
+body{
+    background-image:url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 0px;
+    padding:15px;
+    box-shadow:5px 10px 20px rgb(58, 13, 73);
+}
+
+#note{
+    font-size: 17px;
+}
+
+.image_div{ 
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    margin-left:20px;
+}
+
+#speed_div{
+    float:left;
+}
+
+#volume_div{
+    float:right;
+}
+
+#speed{
+    font-size:23px;
+}
+
+#volume{
+    font-size:23px;
+}
+
+canvas{
+    border-color: black;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+margin-top: 20px;
+}
